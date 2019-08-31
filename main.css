@@ -108,7 +108,7 @@ html {
   font-size: 60px;
   margin-bottom: -14px;
   letter-spacing: 41px;
-  padding-left: 44px;
+  padding-left: 42px;
   padding-right: 2px;
   width: 50%;
   margin-left: auto;
@@ -186,7 +186,7 @@ html {
   display: block;
 }
 .page #work-info .images {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -195,6 +195,10 @@ html {
   display: block;
   height: 200px;
   margin: 10px 0;
+}
+.page #work-info div .link {
+  text-decoration: none;
+  color: #a8b1bb;
 }
 
 #work .title {
@@ -270,7 +274,7 @@ html {
     padding-left: 5px;
     padding-right: 50px;
   }
-  .page .info #cooking-title {
+  .page .info .work-title {
     align-self: flex-end;
     padding-right: 5px;
   }
@@ -306,7 +310,7 @@ html {
     display: block;
   }
   #work .info .images {
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: flex-end;
     height: 25vh;

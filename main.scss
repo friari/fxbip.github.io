@@ -219,7 +219,7 @@ html {
         }
 
         .images {
-            display: flex;
+            display: none;
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
@@ -229,6 +229,11 @@ html {
                 height: 200px;
                 margin: 10px 0;
             }
+        }
+
+        div .link {
+            text-decoration: none;
+            color: $color3;
         }
     }
 }
@@ -322,7 +327,7 @@ html {
                 padding-right: 50px;
             }
 
-            #cooking-title {
+            .work-title {
                 align-self: flex-end;
                 padding-right: 5px;
             }
@@ -368,7 +373,7 @@ html {
             }
 
             .images {
-                display: flex;
+                display: none;
                 flex-direction: row;
                 justify-content: flex-end;
                 height: 25vh;
